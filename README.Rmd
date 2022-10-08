@@ -29,19 +29,6 @@ This action indicates whether the phrase was found within the text or not.
 
 ## Inputs
 
-inputs:
-  check-phrase:  # id of input
-    description: 'A phrase to look for in the text'
-    required: true
-    default: "I&#39;m stuck because of this issue.: True"
-  issue-body:
-    description: 'The text body that you want to check for the phrase'
-    required: true
-    default: ${{ github.event.issue.body }}
-outputs:
-  contains-phrase: # id of output
-    description: 'Whether the check phrase was found'
-
 ## `check-phrase`
 
 **Required** The phrase to search for in the issue body. Default `"I'm stuck because of this issue.: True"`.
