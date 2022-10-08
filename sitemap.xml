@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/404.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/authors.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/reference/checkPhrase.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rstudio.github.io/issuetriager/reference/issuetriager-package.html</loc>
+  </url>
+</urlset>
