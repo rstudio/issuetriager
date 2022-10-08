@@ -8,6 +8,8 @@ RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
 WORKDIR /project
 COPY . .
 
+RUN chmod +x /project/exec/checkPhraseAction.R
+
 RUN R -e "renv::restore()"
 
 RUN R CMD INSTALL --build .

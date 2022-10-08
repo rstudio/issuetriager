@@ -1,2 +1,9 @@
 .github
 .gitignore
+.git
+..Rcheck
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+renv/sandbox/R-4.2/aarch64-apple-darwin20

@@ -12,7 +12,7 @@ jobs:
         uses: rstudio/issuetriager@main
         with:
           check-phrase: 'this is a blocking issue'
-          issue-body: ${{ github.event.issue.body }}
+          issue-body: ${{ github.
       # Use the output from the `triage` step
       - name: Label the issue as blocking
         if: ${{ steps.triage.outputs.contains-phrase }}
