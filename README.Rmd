@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 ![package test](https://github.com/rstudio/issuetriager/actions/workflows/check-standard.yml/badge.svg)
+![package test](https://github.com/rstudio/issuetriager/actions/workflows/render-rmarkdown.yml/badge.svg)
 <!-- badges: end -->
 
 The goal of issuetriager is to streamline the triage process for projects that
