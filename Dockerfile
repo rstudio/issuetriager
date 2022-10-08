@@ -11,3 +11,5 @@ COPY . .
 RUN R -e "renv::restore()"
 
 RUN R CMD INSTALL --build .
+
+ENTRYPOINT [/project/exec/checkPhraseAction.R]
