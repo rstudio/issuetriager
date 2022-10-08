@@ -85,7 +85,7 @@ jobs:
 
 ## Development
 
-Clone this repo from GitHub, and open the project file in RStudio IDE.
+Clone this repo from GitHub, and open the project in RStudio IDE.
 
 ```
 # CTRL-SHIFT-L to load the package
