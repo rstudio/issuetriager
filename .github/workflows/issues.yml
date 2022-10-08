@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: check the text
         id: triage
-        uses: rstudio/issuetriager@v1
+        uses: rstudio/issuetriager@main
         with:
           check-phrase: 'this is a blocking issue'
           issue-body: ${{ github.event.issue.body }}
