@@ -62,11 +62,8 @@
 <!-- badges: start --><p><img src="https://github.com/rstudio/issuetriager/actions/workflows/check-standard.yml/badge.svg" alt="package test"><img src="https://github.com/rstudio/issuetriager/actions/workflows/render-rmarkdown.yml/badge.svg" alt="package test"><!-- badges: end --></p>
 <p>The goal of issuetriager is to streamline the triage process for projects that have frequent issues reported on GitHub. Normal use is inside of a GitHub workflow that is triggered to run when issues are opened, analyze the text, and use the results for automatic labeling, closing, or notification about issues.</p>
 <p>This action indicates whether the phrase was found within the text or not.</p>
-<div class="section level2">
-<h2 id="inputs">Inputs<a class="anchor" aria-label="anchor" href="#inputs"></a>
-</h2>
-<p>inputs: check-phrase: # id of input description: ‘A phrase to look for in the text’ required: true default: “I’m stuck because of this issue.: True” issue-body: description: ‘The text body that you want to check for the phrase’ required: true default: ${{ github.event.issue.body }} outputs: contains-phrase: # id of output description: ‘Whether the check phrase was found’</p>
-</div>
+<div class="section level2"><h2 id="inputs">Inputs<a class="anchor" aria-label="anchor" href="#inputs"></a>
+</h2></div>
 <div class="section level2">
 <h2 id="check-phrase">
 <code>check-phrase</code><a class="anchor" aria-label="anchor" href="#check-phrase"></a>
@@ -116,10 +113,15 @@
 <div class="section level2">
 <h2 id="development">Development<a class="anchor" aria-label="anchor" href="#development"></a>
 </h2>
-<p>Clone this repo from GitHub, and open the project file in RStudio IDE.</p>
+<p>Clone this repo from GitHub, and open the project in RStudio IDE.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># CTRL-SHIFT-L to load the package</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># SHIFT-CMD-T to run tests</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
+<p>Please note that the issuetriager project is released with a <a href="https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 <!-- 
 GitHub Actions will re-render `README.Rmd` every time you push.
 -->
