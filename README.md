@@ -22,17 +22,10 @@ not.
 
 ## Inputs
 
-inputs: check-phrase: \# id of input description: ‘A phrase to look for
-in the text’ required: true default: “I'm stuck because of this issue.:
-True” issue-body: description: ‘The text body that you want to check for
-the phrase’ required: true default: \${{ github.event.issue.body }}
-outputs: contains-phrase: \# id of output description: ‘Whether the
-check phrase was found’
-
 ## `check-phrase`
 
-**Required** The phrase to search for in the issue body. Default
-`"I'm stuck because of this issue.: True"`.
+**Required** The phrase to search for in the issue body. Default `"I'm
+stuck because of this issue.: True"`.
 
 ## `issue-body`
 
@@ -50,7 +43,7 @@ Whether the check phrase was found
     on:
       issues:
         types: [opened]
-
+    
     jobs:
       triage:
         runs-on: ubuntu-latest
@@ -72,11 +65,18 @@ Whether the check phrase was found
 
 ## Development
 
-Clone this repo from GitHub, and open the project file in RStudio IDE.
+Clone this repo from GitHub, and open the project in RStudio IDE.
 
     # CTRL-SHIFT-L to load the package
-
+    
     # SHIFT-CMD-T to run tests
+
+## Code of Conduct
+
+Please note that the issuetriager project is released with a
+[Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
 
 <!-- 
 GitHub Actions will re-render `README.Rmd` every time you push.
