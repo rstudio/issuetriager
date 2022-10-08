@@ -92,16 +92,6 @@ Clone this repo from GitHub, and open the project file in RStudio IDE.
 # SHIFT-CMD-T to run tests
 ```
 
-## Example
-
-This is a basic example which shows you how to use the simplest check for a single phrase:
-
-```{r example}
-library(issuetriager)
-## basic example code
-```
-
-
 
 <!-- 
 GitHub Actions will re-render `README.Rmd` every time you push.
