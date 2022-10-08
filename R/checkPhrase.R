@@ -1,11 +1,3 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
 #
 # Some useful keyboard shortcuts for package authoring:
 #
@@ -13,6 +5,16 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
+
+#' Check some text for a phrase
+#'
+#' @param phrase The phrase to look for.
+#' @param issueBody The text to search within.
+#' @return A logical vector.
+#' @examples
+#' checkPhrase('hello', 'you say hello i say goodbye')
 checkPhrase <- function(phrase, issueBody) {
   stringr::str_detect(issueBody, phrase)
 }
+
+
