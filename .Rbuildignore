@@ -6,3 +6,5 @@
 ^Dockerfile$
 ^action.yml$
 ^.github$
+^.dockerignore$
+^README\.Rmd$
