@@ -15,7 +15,6 @@ jobs:
           issue-body: ${{ github.event.issue.body }}
       # Use the output from the `triage` step
       - name: Label the issue as blocking
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
         if: ${{ steps.triage.outputs.contains-phrase }}
         uses: andymckay/labeler@master
         with:
