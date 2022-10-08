@@ -1,0 +1,9 @@
+* using log directory ‘/Users/emurphy/academy/issuetriager/..Rcheck’
+* using R version 4.2.0 (2022-04-22)
+* using platform: aarch64-apple-darwin20 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘./DESCRIPTION’ ... ERROR
+Required field missing or empty:
+  ‘Author’
+* DONE
+Status: 1 ERROR

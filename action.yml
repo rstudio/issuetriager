@@ -1,0 +1,21 @@
+# action.yml
+name: 'Text Analyzer Action'
+description: 'Analyzes text to help with issue triage'
+inputs:
+  check-phrase:  # id of input
+    description: 'A phrase to look for in the text'
+    required: true
+    default: "I&#39;m stuck because of this issue.: True"
+  issue-body:
+    description: 'The text body that you want to check for the phrase'
+    required: true
+    default: ${{ github.event.issue.body }}
+outputs:
+  contains-phrase: # id of output
+    description: 'Whether the check phrase was found'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - "${{ inputs.check-phrase }}"
+    - "${{ inputs.issue-body }}"

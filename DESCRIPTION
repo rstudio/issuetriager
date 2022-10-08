@@ -1,0 +1,19 @@
+Package: issuetriager
+Type: Package
+Title: Automated Triage of Support Issues
+Version: 0.1.0
+Authors@R: c(
+    person("Elliot", "Murphy", , "elliot@rstudio.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7473-8081")),
+    person(, "RStudio, PBC", role = c("cph", "fnd"))
+  )
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
